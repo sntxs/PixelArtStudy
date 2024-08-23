@@ -18,7 +18,6 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* Adicione isto para distribuir o espaço entre os itens */
     box-shadow: 0 2px rgba(0, 0, 0, 0.3);
     position: relative;
 
@@ -34,6 +33,7 @@ header {
         font-size: 1.1rem;
         font-weight: 500;
         transition: 0.4s ease;
+        cursor: pointer;
 
         &:hover {
             color: #acacac;
